@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.main{
+    /* background-color: violet; */
+    height: 850px;
+    /* height: 100vh;
+    width: 100vh; */
+    background-image:url("back.jpg");
+}
+
+.container{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    margin: 45px auto;
+    border-radius: 15px;
+
+}
+
+.left img{
+    height: 38px;
+    width: 121px;
+    margin-right: 1200px;
+    margin-top: 30px;
+}    
+
+.logo img{
+    margin-top: 35px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.container span{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.para1 p{
+    margin-top: 13px;
+}
+
+
+.form_fill form{
+    display: flex;
+    flex-direction: column;
+}
+
+#fname,.select{
+    width: 345px;
+    align-items: center;
+    text-align: center;
+    margin-left: 95px;
+    height: 28px;
+    /* border: none; */
+}
+
+#fname:hover{
+    color: black;
+}
+.company{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 225px;
+    margin-bottom: 5px;
+}
+
+.industry{
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-bottom: 5px;
+    /* margin-left: 30px; */
+}
+
+
+.btn{
+    margin-top: 20px;
+    margin-right: 225px;
+    margin-bottom: 5px;
+}
+
+.button-row {
+    display: flex;
+}
+
+
+.btn1{
+    margin-left: 96px;
+    padding: 5px 20px;
+    border: none;
+    color: brown;
+}
+
+
+.btn2,.btn3,.btn4,.btn5{
+    margin-left: 7px;
+    padding: 5px 18px;
+    border: none;
+}
+
+.button-row button:hover{
+    background-color: rgb(7, 111, 247);
+}
+
+.last_btn{
+    margin-top: 10px;
+}
+
+
+.last_btn{
+    margin-top: 47px;
+}
+.last{
+    width: 340px;
+    border: none;
+    height: 32px;
+    color: white;
+    background-color: rgb(7, 111, 247);
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.foot p{
+    color: grey;
+}
